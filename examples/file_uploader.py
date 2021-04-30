@@ -26,4 +26,4 @@ if w:
     import pandas as pd
 
     data = pd.read_csv(w)
-    st.write(data)
+    st.write(data.head())
